@@ -1,0 +1,73 @@
+.contact_form{
+    .card-header{
+        h3{
+            color: #198754;
+            text-align: center;
+            margin: 0;
+        }
+    }
+    .card-body{
+        form{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+
+            .my-3{
+                width: 100%;
+            }
+        }
+    }
+    .card-footer{
+        .user_list{
+            tr{
+                th{
+                    color: #198754;
+                }
+            }
+            .user_list_info{
+                vertical-align: middle;
+                tr{
+                    td.phone, td.email{
+                        a{
+                            color: #198754;
+                        }
+                        text-decoration: underline;
+                    }
+                    td{
+                        // width: 20%;
+                        img{
+                            width: 60px;
+                            height: 60px;
+                            object-fit: cover;
+                            text-align: center;
+                            border-radius: 50%;
+                            border: 3px solid #198754;
+                            box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+                        }
+                        .action_btn{
+                            display: flex;
+                            gap: 5px;
+                            justify-content: space-between;
+
+                            a{
+                                position: relative;
+                                width: 40px;
+                                height: 40px;
+                                svg{
+                                    pointer-events: none;
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                    right: 0;
+                                    bottom: 0;
+                                    margin: auto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
